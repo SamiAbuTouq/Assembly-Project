@@ -28,7 +28,7 @@ This project is a **Greatest Common Divisor (GCD)** and **Least Common Multiple 
   - Cursor movement for a smooth user experience.  
 
 ---
----
+
 ## 📚 How It Works
 
 1. **Input**: The program prompts the user to input two integers.  
