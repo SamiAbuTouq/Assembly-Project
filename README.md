@@ -6,26 +6,16 @@ This project is a **Greatest Common Divisor (GCD)** and **Least Common Multiple 
 
 ## 🔑 Key Features
 
-- **🔢 User Prompts**  
-  Clear and concise prompts to guide users in entering two integers.
-
 - **⚠️ Edge Case Handling**  
   Handles invalid inputs gracefully, including:  
   - Undefined operations (e.g., division by zero).  
   - "Not a Number" (NaN) scenarios.  
 
-- **⚡ Efficient Algorithm**  
-  Utilizes iterative and arithmetic methods to compute GCD and LCM quickly and reliably.
 
 - **📊 Dynamic Display**  
   Outputs results in various formats, including:  
   - Valid computation results.  
   - Informative error messages for invalid scenarios.  
-
-- **🎮 Interactive UI**  
-  Leverages low-level system calls for:  
-  - Text-based interactive output.  
-  - Cursor movement for a smooth user experience.  
 
 ---
 
