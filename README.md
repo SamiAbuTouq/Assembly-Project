@@ -18,6 +18,7 @@ This project is a **Greatest Common Divisor (GCD)** and **Least Common Multiple 
   - Informative error messages for invalid scenarios.  
 
 ---
+<font color="red">This text is red!</font>
 
 ## 📚 How It Works
 
