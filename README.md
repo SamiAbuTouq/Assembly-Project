@@ -1,31 +1,25 @@
-# 🌟 GCD and LCM Calculator in Assembly Language 🌟
+# GCF & LCM Calculator (8086 Assembly)
 
+An 8086 assembly language program that calculates the **Greatest Common Factor (GCF)** and **Least Common Multiple (LCM)** of two user-provided numbers.
 
-This project is a **Greatest Common Divisor (GCD)** and **Least Common Multiple (LCM)** calculator implemented in **x86 assembly language**. It features a user-friendly console interface that allows users to input two numbers and computes their GCD and LCM. The program handles edge cases like invalid inputs, zero values, and undefined operations with appropriate feedback.
+## Features
 
----
+- Accepts two numbers (1-2 digits each) as input
+- Computes the GCF using an iterative divisibility approach
+- Computes the LCM using the formula: `LCM(a, b) = (a * b) / GCF(a, b)`
+- Handles edge cases such as zero values, both inputs being 1, and invalid (non-numeric) input
 
-## 🔑 Key Features
+## How to Run
 
-- **⚠️ Edge Case Handling**  
-  Handles invalid inputs gracefully, including:  
-  - Undefined operations (e.g., division by zero).  
-  - "Not a Number" (NaN) scenarios.  
+1. Open the project in **emu8086** or any compatible 8086 emulator.
+2. Load `Project.asm`.
+3. Assemble and run the program.
+4. Enter two numbers when prompted and view the results.
 
+## Example
 
-- **📊 Dynamic Display**  
-  Outputs results in various formats, including:  
-  - Valid computation results.  
-  - Informative error messages for invalid scenarios.
-      
-
-## 📚 How It Works
-
-1. **Input**: The program prompts the user to input two integers.  
-2. **Processing**:  
-   - Calculates GCD using the Euclidean algorithm. 
-   - Computes LCM based on the formula:  
-     `LCM(a, b) = |a * b| / GCD(a, b)`  
-3. **Output**: Results are displayed in a structured format, or an error message is shown for invalid inputs.
-
----
+```
+Enter First Number: 12
+Enter Second Number: 8
+GCF=4  LCM=24
+```
